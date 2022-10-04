@@ -1,0 +1,31 @@
+$navColor : cornflowerblue;
+$texColor : black;
+$barSize : 30px;
+
+
+.all {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header {
+    background-color:$navColor;
+    color:$texColor;
+    display:flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+}
+
+.menuIcon {
+    width:30px;
+    height: 30px;
+    margin:10px;
+}
+
+
+.center {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top:-10px;
+    padding-top:10px;
+}
